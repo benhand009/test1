@@ -8,10 +8,10 @@ https://developer.godaddy.com/getstarted
 Update the first 4 varriables with your information
  
 #>
-$domain = 'your.domain.to.update'  # your domain
-$name = 'name_of_host' #name of the A record to update
-$key = 'key' #key for godaddy developer API
-$secret = 'Secret' #Secret for godday developer API
+$domain = 'http://www.luxuryhub.org'  # your domain
+$name = 'www' #name of the A record to update
+$key = 'dKszfn1b2Tgr_XA6EqTADciXt3cR7Jrw4Jv' #key for godaddy developer API
+$secret = 'XA6JhWPYy7UC6BDkeXag8a' #Secret for godday developer API
 
 $headers = @{}
 $headers["Authorization"] = 'sso-key ' + $key + ':' + $secret
